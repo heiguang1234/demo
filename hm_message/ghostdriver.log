@@ -1,0 +1,37 @@
+[INFO  - 2022-06-30T13:38:11.224Z] GhostDriver - Main - running on port 58726
+[INFO  - 2022-06-30T13:38:11.995Z] Session [e2b58180-f879-11ec-bfa7-af689355ebef] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2022-06-30T13:38:11.995Z] Session [e2b58180-f879-11ec-bfa7-af689355ebef] - page.customHeaders:  - {}
+[INFO  - 2022-06-30T13:38:11.995Z] Session [e2b58180-f879-11ec-bfa7-af689355ebef] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2022-06-30T13:38:11.996Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: e2b58180-f879-11ec-bfa7-af689355ebef
+[ERROR - 2022-06-30T13:38:12.867Z] Session [e2b58180-f879-11ec-bfa7-af689355ebef] - page.onError - msg: TypeError: undefined is not an object (evaluating 'r.get')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2022-06-30T13:38:12.867Z] Session [e2b58180-f879-11ec-bfa7-af689355ebef] - page.onError - stack:
+  (anonymous function) (https://g.csdnimg.cn/tingyun/tingyun.js:1)
+  a (https://g.csdnimg.cn/tingyun/tingyun.js:1)
+  Ze (https://g.csdnimg.cn/tingyun/tingyun.js:1)
+  gn (https://g.csdnimg.cn/tingyun/tingyun.js:1)
+  ja (https://g.csdnimg.cn/tingyun/tingyun.js:2)
+  ti (https://g.csdnimg.cn/tingyun/tingyun.js:2)
+  ei (https://g.csdnimg.cn/tingyun/tingyun.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2022-06-30T13:38:13.200Z] Session [e2b58180-f879-11ec-bfa7-af689355ebef] - page.onError - msg: TypeError: `Promise.prototype.finally` requires a global `Promise` be available.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2022-06-30T13:38:13.200Z] Session [e2b58180-f879-11ec-bfa7-af689355ebef] - page.onError - stack:
+  exports (https://csdnimg.cn/release/cmsfe/public/js/chunk/common.52afd63d.js:75)
+  ./node_modules/_promise.prototype.finally@3.1.3@promise.prototype.finally/implementation.js (https://csdnimg.cn/release/cmsfe/public/js/chunk/common.52afd63d.js:75)
+  i (https://csdnimg.cn/release/cmsfe/public/js/runtime.a4cef546.js:1)
+  ./node_modules/_promise.prototype.finally@3.1.3@promise.prototype.finally/index.js (https://csdnimg.cn/release/cmsfe/public/js/chunk/common.52afd63d.js:75)
+  i (https://csdnimg.cn/release/cmsfe/public/js/runtime.a4cef546.js:1)
+  ./app/web/common/http-InterceptorX/HttpInterceptorX.js (https://csdnimg.cn/release/cmsfe/public/js/chunk/tpl/www-index-new/index.c64eb6ac.js:1)
+  i (https://csdnimg.cn/release/cmsfe/public/js/runtime.a4cef546.js:1)
+  ./app/web/component/Floor/floor-live-client.vue (https://csdnimg.cn/release/cmsfe/public/js/chunk/tpl/www-index-new/index.c64eb6ac.js:1)
+  i (https://csdnimg.cn/release/cmsfe/public/js/runtime.a4cef546.js:1)
+  ./node_modules/_babel-loader@8.2.5@babel-loader/lib/index.js?{"envName":"web","cacheDirectory":"/tmp/easywebpack/csdn-cms-fe/prod/cache/client/babel-loader"}!./node_modules/_vue-entry-loader@1.1.5@vue-entry-loader/index.js?templateFile=,renderMode=ssr!./app/web/page/tpl/www-index-new/index.vue (https://csdnimg.cn/release/cmsfe/public/js/chunk/tpl/www-index-new/index.c64eb6ac.js:1)
+  i (https://csdnimg.cn/release/cmsfe/public/js/runtime.a4cef546.js:1)
+  r (https://csdnimg.cn/release/cmsfe/public/js/runtime.a4cef546.js:1)
+  t (https://csdnimg.cn/release/cmsfe/public/js/runtime.a4cef546.js:1)
+
+  phantomjs://platform/console++.js:263 in error
